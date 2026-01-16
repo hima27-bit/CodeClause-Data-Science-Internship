@@ -22,4 +22,4 @@ IMDb movie reviews dataset from NLTK.
 - Achieved approximately 80% accuracy on test data
 
 ## Status
-✅ Completed
+ Completed
