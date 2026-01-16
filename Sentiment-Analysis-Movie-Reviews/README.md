@@ -23,3 +23,9 @@ IMDb movie reviews dataset from NLTK.
 
 ## Status
  Completed
+
+
+## How to Run
+1. Open the notebook in Google Colab or Jupyter Notebook.
+2. Run all cells sequentially.
+3. The final cell displays model accuracy and evaluation results.
