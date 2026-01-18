@@ -10,4 +10,4 @@ This project predicts the genre of a movie based on its plot summary using Natur
 - Scikit-learn
 
 ## Status
-🚧 In Progress
+In Progress
