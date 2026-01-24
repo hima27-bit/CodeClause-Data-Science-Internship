@@ -1,61 +1,70 @@
-# 🎬 Movie Genre Prediction using NLP
+🎬 Movie Genre Prediction using NLP
+📌 Project Overview
 
-This project predicts the **genre of a movie** based on its **plot description** using Natural Language Processing (NLP) and Machine Learning techniques.
+This project aims to predict the genre of a movie based on its plot description using Natural Language Processing (NLP) techniques and machine learning. By analyzing textual patterns in movie descriptions, the model classifies movies into appropriate genres.
 
----
+🎯 Aim
 
-## 🚀 Overview
-The project demonstrates an end-to-end NLP pipeline including text preprocessing, feature extraction using TF-IDF, and genre classification using a Naive Bayes model.
+To build a machine learning model that predicts the genre of a movie using its plot summary.
 
----
+📝 Description
 
-## 📂 Dataset
-- **Source:** Kaggle
-- **Format:** CSV
-- **Columns:**
-  - `Description` – Movie plot summary
-  - `Genre` – Movie genre label
+The project uses NLP techniques to preprocess movie plot descriptions and converts them into numerical features using TF-IDF vectorization. A Naive Bayes classifier is trained on these features to predict the genre of a movie. The model is evaluated using accuracy and classification metrics, and it also supports custom user input for genre prediction.
 
-The dataset contains short, genre-indicative descriptions, making it suitable for text classification tasks.
+🛠 Technologies Used
 
----
+Python
 
-## 🛠 Tech Stack
-- Python
-- Pandas
-- NLTK
-- Scikit-learn
-- Jupyter Notebook / Google Colab
+Google Colab
 
----
+NLTK
 
-## 🧹 Text Preprocessing
-- Converted text to lowercase  
-- Removed punctuation and numbers  
-- Removed stopwords  
-- Applied lemmatization  
-- Used simple tokenization  
+Scikit-learn
 
----
+Pandas, NumPy
 
-## 🔢 Feature Extraction
-- **TF-IDF Vectorizer**
-  - Unigrams and bigrams
-  - Converts text data into numerical features
+📂 Dataset
 
----
+File name: movie_genre.csv
 
-## 🤖 Model
-- **Multinomial Naive Bayes**
-  - Well-suited for text classification
-  - Efficient for high-dimensional sparse data
+Columns used:
 
----
+Description – Movie plot summary
 
-## 📊 Model Evaluation
-The model achieved **high accuracy** due to strong genre-specific cues present in the dataset descriptions.  
-A label-shuffle test confirmed that there was **no data leakage**, validating the correctness of the pipeline.
+Genre – Movie genre label
 
----
+⚙️ Methodology
 
-## 🧪 Sample Prediction
+Loaded and explored the dataset
+
+Cleaned and preprocessed text data (lowercasing, punctuation removal, stopword removal)
+
+Converted text into numerical features using TF-IDF
+
+Split data into training and testing sets
+
+Trained a Naive Bayes classification model
+
+Evaluated model performance
+
+Tested the model using custom movie descriptions
+
+📊 Results
+
+The model achieved high accuracy on the test dataset.
+
+Successfully predicted genres for unseen movie plot descriptions.
+
+📚 Learning Outcomes
+
+Understanding of text preprocessing techniques
+
+Feature extraction using TF-IDF
+
+Implementation of text classification models
+
+Practical experience with NLP pipelines
+
+✅ Conclusion
+
+This project demonstrates how NLP and machine learning can be effectively used for text classification tasks such as movie genre prediction. The model performed well due to clear textual patterns in the dataset and appropriate feature extraction techniques.
