@@ -1,24 +1,48 @@
-# 🫀 Heart Disease Risk Assessment
+🫀 Heart Disease Risk Assessment
+📌 Project Overview
 
-## 🎯 Aim
+This project predicts the risk of heart disease using machine learning and provides a user-friendly web interface for real-time assessment.
 
-To build a machine learning model that predicts the risk of heart disease based on user health parameters and integrate it with a user-friendly interface.
+🎯 Aim
 
-## 📝 Description
+To build a machine learning model and deploy it using a web-based interface that allows users to input health parameters and receive immediate risk predictions.
 
-This project uses a supervised machine learning approach to assess heart disease risk using clinical health data. The trained model will later be integrated into a web-based user interface for real-time prediction.
-
-## 🛠 Technologies Used
+🛠 Technologies Used
 
 Python
-
-Google Colab
 
 Scikit-learn
 
 Pandas, NumPy
 
-Streamlit (for UI)
+Streamlit
 
-## progress
-in progress
+📂 Dataset
+
+Source: UCI Heart Disease Dataset
+
+Attributes include age, sex, cholesterol, blood pressure, ECG results, and other clinical parameters.
+
+⚙️ Workflow
+
+Data loading and preprocessing
+
+Feature scaling
+
+Model training using Random Forest
+
+Model evaluation
+
+Saving trained model and scaler
+
+UI development using Streamlit
+
+📊 Output
+
+Predicts Low Risk or High Risk of heart disease
+
+Real-time predictions via web UI
+
+✅ Conclusion
+
+This project demonstrates the application of machine learning in healthcare by integrating a predictive model with a dynamic and user-friendly interface.
